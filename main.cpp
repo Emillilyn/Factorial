@@ -2,8 +2,8 @@
 using namespace std;
 
 int main()
-{ // algoritmus: vypocet faktorialu
-    long int A, F; // deklarace promennych
+{ // algorithm: Factorial calculation
+    long int A, F;
 
     while (true) {
         cout << "Enter an integer: ";
