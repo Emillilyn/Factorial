@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{ // algoritmus: vypocet faktorialu
+    long int A, F; // deklarace promennych
+
+    while (true) {
+        cout << "Enter an integer: ";
+        cin >> A;
+
+        if (A == -999) {
+            cout << "end";
+            break;
+        }
+        F = A;
+        while (A > 1) {
+            A = A - 1;
+            F = F * A;
+        }
+        cout << F << endl;
+    }
+}
